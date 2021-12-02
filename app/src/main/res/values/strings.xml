@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Design_App</string>
-    <string name="Next_Activity">Next Activity</string>
+    <string name="Push">Push</string>
     <string name="hello">Hello</string>
 </resources>

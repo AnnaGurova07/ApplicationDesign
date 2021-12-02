@@ -17,19 +17,22 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/next_activity_button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.227" />
+        app:layout_constraintVertical_bias="0.102" />
 
     <Button
         android:id="@+id/next_activity_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Next_Activity"
+        android:text="@string/Push"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floating_action_button"
@@ -42,7 +45,7 @@
         app:layout_constraintHorizontal_bias="0.954"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/next_activity_button"
-        app:layout_constraintVertical_bias="0.912" />
+        app:layout_constraintVertical_bias="0.925" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
